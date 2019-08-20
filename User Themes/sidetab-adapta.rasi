@@ -7,16 +7,21 @@
  */
 
 configuration {
-        show-icons:   true;
+        show-icons:   false;
         sidebar-mode: true;
 }
 
 * {
-        background-color:           #222d32;
+     /* background-color:           #222d32;
+     	accent-color:               #00bcd4;
+        accent2-color:              #4db6ac;
+     */
+     
+        background-color:           #222d3250;
         text-color:                 #ffffff;
 
-        accent-color:               #00bcd4;
-        accent2-color:              #4db6ac;
+        accent-color:               #5a476a;
+        accent2-color:              #5a476a;
         hover-color:                #39454b;
         urgent-color:               #ff5252;
         window-color:               #ffffff;
@@ -54,7 +59,7 @@ entry {
 }
 
 element {
-        padding: 8px;
+        padding: 4px;
 }
 
 element normal.normal {
@@ -110,7 +115,7 @@ button {
 
 button selected {
         background-color: @active-background;
-        text-color:       @background-color;
+        text-color:       #000000;
 }
 
 /* vim: ft=css
