@@ -7,7 +7,7 @@
  */
 
 configuration {
-        show-icons:   false;
+        show-icons:   true;
         sidebar-mode: true;
 }
 
@@ -20,9 +20,9 @@ configuration {
         background-color:           #222d3250;
         text-color:                 #ffffff;
 
-        accent-color:               #5a476a;
-        accent2-color:              #5a476a;
-        hover-color:                #39454b;
+        accent-color:               #9A2A92;
+		accent2-color:              #9A2A92;
+        hover-color:                #29353b;
         urgent-color:               #ff5252;
         window-color:               #ffffff;
 
@@ -115,7 +115,7 @@ button {
 
 button selected {
         background-color: @active-background;
-        text-color:       #000000;
+        text-color:       #ffffff;
 }
 
 /* vim: ft=css
